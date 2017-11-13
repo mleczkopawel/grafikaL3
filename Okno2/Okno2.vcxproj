@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}</ProjectGuid>
+    <ProjectGuid>{4341D162-2773-4003-8B1D-5748CF243B8A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Okno2</RootNamespace>
   </PropertyGroup>
@@ -34,11 +34,11 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="wspolne.props" Condition="exists('wspolne.props')"/>
+    <Import Project="wspolne.props" Condition="exists('wspolne.props')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="wspolne.props" Condition="exists('wspolne.props')"/>
+    <Import Project="wspolne.props" Condition="exists('wspolne.props')" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -80,9 +80,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Okno2.h" />
     <ClInclude Include="ZmienNazwe.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Okno2.cpp" />
     <ClCompile Include="ZmienNazwe.cpp" />
   </ItemGroup>
   <ItemGroup>

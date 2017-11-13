@@ -1,7 +1,7 @@
 #ifndef OKNO_H
 #define OKNO_H
 
-#include <gl\GL.h>
+#include <../../../../../../Users/STUDENT/Documents/Visual Studio 2013/Projects/L3/Include/GL/freeglut.h>
 
 class Okno
 {

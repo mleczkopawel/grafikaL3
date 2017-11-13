@@ -1,4 +1,4 @@
-#include <freeglut.h>
+#include 
 class Okno2
 {
 public:
