@@ -1,12 +1,11 @@
 #ifndef OKNO_H
 #define OKNO_H
 
-#include <gl/freeglit.h>
+#include <gl\GL.h>
 
-#pragma once
 class Okno
 {
-
+private:
 	static int wysokoscOkna;
 	static int szerokoscOkna;
 	int polozenieOknaX;
